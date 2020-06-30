@@ -38,7 +38,11 @@ krabs= Instructor.new("Mr.Krabs")
 
 no_crashing = spongebob.add_boating_test("Don't Crash 101", "pending", puff)
 power_steering_failure = patrick.add_boating_test("Power Steering 202", "failed", puff)
+power_steering_failure_two = patrick.add_boating_test("Power Steering 102", "failed", puff)
 power_steering_pass = patrick.add_boating_test("Power Steering 201", "passed", krabs)
+power_steering_pass_two = patrick.add_boating_test("Power Steering 301", "passed", krabs)
+power_steering_pass = patrick.add_boating_test("Don't Crash 201", "passed", krabs)
+power_steering_pass_two = patrick.add_boating_test("Don't Crash 202", "passed", krabs)
 ```
 
 ![](https://media.giphy.com/media/GwYxLtDaB3Wso/giphy.gif)
